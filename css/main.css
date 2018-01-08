@@ -27,7 +27,8 @@ nav {
 	height: 50px;
 }
 
-#menu {
+#menu,
+#hamburger-menu {
 	float: right;
 }
 
@@ -53,8 +54,14 @@ nav #menu{
 	padding-right: 7%;
 }
 
+#hamburger-menu {
+	padding-right: 7%;
+	display: none;
+}
+
 nav #page-title,
-nav #menu{
+nav #menu,
+#hamburger-menu {
 	padding-top: 1.5%;
 }
 
@@ -177,10 +184,16 @@ footer {
 	.btn-container{
 		height: 12vh;
 	}
+	#hamburger-menu{
+		display: block;
+	}
+	nav #menu {
+		display: none;
+	}
 }
 
 
 
-/*fa-fa-bars
+/*
 word wrap: break-word;
 visibility: hidden (solo quita la visibilidad)*/
