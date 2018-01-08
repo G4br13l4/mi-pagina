@@ -16,9 +16,9 @@
 	clear: both;
 }
 
-.col-12 {width: calc(100% - 1%);}
-.col-4 {width: calc(33.33% - 1%);}
-.col-8 {width: calc(66.66% - 1%);}
+.col-12 {width: 100%;}
+.col-4 {width: 33.33%;}
+.col-8 {width: 66.66%;}
 
 /*Barra de navegacion*/
 nav {
@@ -136,7 +136,26 @@ nav #menu span:hover {
 }
 
 
+/*footter*/
 
+footer {
+	background: #343A40;
+	color: white;
+	text-align: center;
+	font-size: 10px;
+	padding: 25px;
+	margin-top: 20px;	
+}
+
+/*Diseño Responsive*/
+
+@media (max-width: 768px) {
+	.col-12-mobile {
+
+		
+
+	}
+}
 
 
 
