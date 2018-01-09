@@ -12,7 +12,6 @@
 }
 .row {
 	width: 100%;
-	height: auto;
 	clear: both;
 }
 
@@ -24,7 +23,7 @@
 nav {
 	background: #343A40;
 	color:#FFFFFF;
-	height: 50px;
+	height: 10vh;
 }
 
 #menu,
@@ -33,15 +32,10 @@ nav {
 }
 
 #gray-area {
-	background: #CCCCCC;
-	color:#FFFFFF;
-	text-align: center;
-	height: 400px;
-	font-size: 80px;
-}
-
-#gray-area div {
-	padding-top: 7%;
+	background-image: url(../assets/images/cats-collage.png);
+	background-size: cover;
+	width: 100%;
+	height: 60vh;
 }
 
 nav #page-title {
@@ -71,7 +65,8 @@ nav #menu span{
 }
 
 nav #menu span:hover {
- color: #FFFFFF;
+	 color: #FFFFFF;
+	 cursor: pointer;
 }
 /*Cajas What We Do & Contact Us*/
 
@@ -90,65 +85,74 @@ nav #menu span:hover {
 	padding-right: 5%;
 }
 .what-we-do p,
-#call-btn{
+#call-btn,
+.contact-us p {
 	margin:2% 0;
 }
 
 #call-btn {
-	background: #007BFF;
+	background: #11010D;
 	color: #FFFFFF;
 	padding:15px;
 	border-radius: 10px;
 }
 
+#call-btn:hover,
+ {
+ 	color: #11010D;
+ 	font-weight: bold;
+ 	background-image: url(../assets/images/rainbow.jpg);
+ 	background-size: cover;
+ 	cursor: pointer;
+}
+
 /*Seccion de cajas con imagenes*/
 
+#boxes-containers {
+	height: 100vh;
+}
 .box{
 	border: solid #CCCCCC 1px;
-	width: 65%;
-	height: 100vh;
+	width: 75%;
+	height: 95vh;
 }
 
 .image-container img{
 	width:100%;
-	height: 45vh;
-	display: block;
+	height: 48vh;
 }
 .box-content{
-	display: block;
 	width: 100%;
-	height: 43vh;
+	height: 35.25vh;
+	padding:2%;
 }
 
 .btn-container{
 	width:100%;
-	display: block;
-	height: 12vh;
+	height: 11.75vh;
 	background:#F2F2F3;
+	padding-left: 6%;
+	padding-top: 6%
 }
 
 .btn-find-more{
-	background: #007BFF;
+	background: #11010D;
 	color: #FFFFFF;
 	padding:10px;
 	border-radius: 8px;
 }
 
-.box-content,
-.btn-container {
-	padding:2%;
+.btn-find-more:hover{
+	color: #11010D;
+ 	font-weight: bold;
+ 	background-image: url(../assets/images/rainbow.jpg);
+ 	background-size: cover;
+ 	cursor: pointer;
 }
 
-#box-one{
-float: right;
-}
-
-#box-two {
-	margin: auto;
-}
-#box-three{
-	float:left;
-}
+#box-one{float: right;}
+#box-two {margin: auto;}
+#box-three{float:left;}
 
 
 /*footer*/
@@ -175,25 +179,27 @@ footer {
 		width: 100%;
 	}
 
-	.image-container img{
-		height: 45vh;
-	}
-	.box-content{
-		height: 43vh;
-	}
-
-	.btn-container{
-		height: 12vh;
-	}
 	#hamburger-menu{
 		display: block;
 	}
 	nav #menu {
 		display: none;
 	}
+	.btn-container{
+		padding-left: 3%;
+		padding-top: 2%
+	}
+
+	.box-content{
+	height: 18vh;
+	}
+
+	.image-container img{
+		height: 65.25vh;
+	}
 }
 
-
+/*83.25*/
 
 /*
 word wrap: break-word;
