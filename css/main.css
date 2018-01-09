@@ -97,8 +97,7 @@ nav #menu span:hover {
 	border-radius: 10px;
 }
 
-#call-btn:hover,
- {
+#call-btn:hover {
  	color: #11010D;
  	font-weight: bold;
  	background-image: url(../assets/images/rainbow.jpg);
